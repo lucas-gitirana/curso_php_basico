@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <title>Personalizar texto</title>
+</head>
+<body>
+<div>
+    <form method="get" action="ex01.php">
+        <label for="num">Número: </label>
+        <input type="number" name="num" id="num">
+        <fieldset><legend>Operação</legend>
+            <label for="dobro">Dobro</label>
+            <input type="radio" name="op" id="dobro" value="1" checked>
+            <br/>
+            <label for="cubo">Cubo</label>
+            <input type="radio" name="op" id="cubo" value="2">
+            <br/>
+            <label for="raiz">Raíz quadrada</label>
+            <input type="radio" name="op" id="raiz" value="3">
+        </fieldset>
+        <input type="submit" class="botao" value="Calcular">
+    </form>
+</div>
+</body>
+</html>
